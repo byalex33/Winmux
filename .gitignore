@@ -1,0 +1,18 @@
+node_modules/
+dist/
+src-tauri/target/
+src-tauri/gen/
+*.log
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+
+# Local visual QA captures; keep only README assets public.
+artifacts/*
+!artifacts/themes/
+!artifacts/themes/*.png
+!artifacts/winmux-command-palette.png
+!artifacts/winmux-final-settings.png
+!artifacts/winmux-live-terminal.png

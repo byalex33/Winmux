@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#070a0f" />
+    <meta
+      name="description"
+      content="Winmux is a fast, keyboard-first terminal workspace for Windows with folders, split panes, activity tracking, and native notifications."
+    />
+    <meta
+      property="og:title"
+      content="Winmux — Command more. Context-switch less."
+    />
+    <meta
+      property="og:description"
+      content="A focused terminal workspace built for Windows."
+    />
+    <meta property="og:url" content="https://winmux.dev/" />
+    <meta property="og:type" content="website" />
+    <link rel="canonical" href="https://winmux.dev/" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Winmux — Terminal workspaces for Windows</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Winmux home">
+        <svg viewBox="0 0 32 32" aria-hidden="true">
+          <rect width="32" height="32" rx="7" />
+          <path d="m8.8 10.2 5.7 5.8-5.7 5.8M17 21.8h7" />
+        </svg>
+        <span>winmux</span><i>.dev</i>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#features">Features</a><a href="docs/index.html">Docs</a
+        ><a class="nav-cta" href="docs/index.html#installation"
+          >Get started <span>↗</span></a
+        >
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero shell">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> Native Windows terminal workspace</p>
+          <h1>Command more.<br /><em>Context-switch less.</em></h1>
+          <p class="lede">
+            Winmux turns scattered shells into one fast, keyboard-first command
+            center—with folders, split panes, and signals that tell you when
+            work is done.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="docs/index.html#installation"
+              >Build the preview <span>→</span></a
+            ><a class="button secondary" href="docs/index.html"
+              >Read the docs</a
+            >
+          </div>
+          <div class="hero-meta" aria-label="Project details">
+            <span><b>01</b> Windows native</span
+            ><span><b>02</b> Built with Rust</span
+            ><span><b>03</b> v0.1 preview</span>
+          </div>
+        </div>
+
+        <div class="product-shot" aria-label="Winmux application preview">
+          <div class="glow"></div>
+          <div class="app-window">
+            <div class="window-bar">
+              <div class="window-brand"><span>›_</span> Winmux</div>
+              <div class="window-controls"><i></i><i></i><i></i></div>
+            </div>
+            <div class="app-body">
+              <aside class="folders">
+                <div class="panel-label">FOLDERS <b>＋</b></div>
+                <div class="folder active">
+                  <span>▱</span> winmux.dev <i>2</i>
+                </div>
+                <div class="folder"><span>▱</span> api <i>1</i></div>
+                <div class="folder"><span>▱</span> infra</div>
+              </aside>
+              <div class="workspace">
+                <div class="workspace-bar">
+                  <b>winmux.dev</b><span>⌕ &nbsp; ⌘ &nbsp; ⚙</span>
+                </div>
+                <div class="tabs">
+                  <span class="active">● dev server &nbsp; ×</span
+                  ><span>◌ tests &nbsp; ×</span><b>＋</b>
+                </div>
+                <div class="panes">
+                  <div class="terminal">
+                    <p>
+                      <span class="prompt">PS</span> C:\dev\winmux&gt;
+                      <strong>npm run dev</strong>
+                    </p>
+                    <p class="muted">
+                      &nbsp; VITE v8.1.4 &nbsp;ready in 416 ms
+                    </p>
+                    <p>
+                      &nbsp; ➜ &nbsp;Local: &nbsp;<u>http://localhost:1420/</u>
+                    </p>
+                    <p>
+                      &nbsp; ➜ &nbsp;press <strong>h</strong> + enter to show
+                      help
+                    </p>
+                    <p class="cursor-line">
+                      <span class="prompt">PS</span> C:\dev\winmux&gt; <i></i>
+                    </p>
+                  </div>
+                  <div class="terminal secondary-pane">
+                    <p>
+                      <span class="prompt purple">✓</span> workspace restored
+                    </p>
+                    <p><span class="muted">14:42:08</span> watching 37 files</p>
+                    <p><span class="muted">14:42:11</span> build completed</p>
+                    <p>
+                      <span class="success">●</span>
+                      <strong>all systems nominal</strong>
+                    </p>
+                  </div>
+                </div>
+                <div class="status-bar">
+                  <span>◉ PowerShell</span
+                  ><span>UTF-8&nbsp;&nbsp; LF&nbsp;&nbsp; winmux.dev</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="activity-toast">
+            <span>✓</span>
+            <div>
+              <b>Build complete</b><small>winmux.dev · dev server</small>
+            </div>
+            <i>now</i>
+          </div>
+        </div>
+      </section>
+
+      <section class="signal-strip" aria-label="Winmux capabilities">
+        <p><span>◆</span> PowerShell</p>
+        <p><span>◆</span> Command Prompt</p>
+        <p><span>◆</span> WSL</p>
+        <p><span>◆</span> Git Bash</p>
+        <p><span>◆</span> Custom shells</p>
+      </section>
+
+      <section class="features shell" id="features">
+        <div class="section-heading">
+          <p class="eyebrow"><span></span> Built for terminal-heavy work</p>
+          <h2>Your whole command line.<br /><em>Under control.</em></h2>
+          <p>Less tab archaeology. More flow.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card wide">
+            <div class="card-index">01 / ORGANIZE</div>
+            <h3>Folders with memory</h3>
+            <p>
+              Keep terminals and layouts grouped by project. Jump straight back
+              into the work that matters.
+            </p>
+            <div class="folder-demo">
+              <span>▱ &nbsp;client-app</span><i>3 sessions</i><b>ACTIVE</b>
+            </div>
+            <div class="folder-demo">
+              <span>▱ &nbsp;backend</span><i>2 sessions</i>
+            </div>
+            <div class="folder-demo">
+              <span>▱ &nbsp;deploy</span><i>1 session</i>
+            </div>
+          </article>
+          <article class="feature-card accent-card">
+            <div class="card-index">02 / MULTIPLEX</div>
+            <h3>Split without breaking flow</h3>
+            <p>
+              Run, watch, and debug side by side. Resize panes and move focus
+              without reaching for the mouse.
+            </p>
+            <div class="split-demo">
+              <span>API<br /><i>▌</i></span
+              ><span>LOGS<br /><b>● live</b></span>
+            </div>
+          </article>
+          <article class="feature-card">
+            <div class="card-index">03 / NOTICE</div>
+            <h3>Know when it's done</h3>
+            <p>
+              Activity states and native Windows notifications surface
+              completed, failed, and waiting commands.
+            </p>
+            <div class="notice-list">
+              <span><i class="green"></i> build completed <b>2s</b></span
+              ><span><i class="pink"></i> test failed <b>8s</b></span
+              ><span><i class="amber"></i> input required <b>now</b></span>
+            </div>
+          </article>
+          <article class="feature-card wide command-card">
+            <div>
+              <div class="card-index">04 / MOVE FAST</div>
+              <h3>Everything is a command</h3>
+              <p>
+                Open the palette, fuzzy-find an action, and keep your hands
+                where the work happens.
+              </p>
+              <kbd>Ctrl</kbd> <b>+</b> <kbd>Shift</kbd> <b>+</b> <kbd>P</kbd>
+            </div>
+            <div class="palette">
+              <small>›_ Type a command...</small
+              ><span class="selected">Split pane right <kbd>Ctrl ⇧ D</kbd></span
+              ><span>Create terminal <kbd>Ctrl ⇧ T</kbd></span
+              ><span>Switch folder: backend</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="manifesto shell">
+        <p class="eyebrow"><span></span> The Winmux way</p>
+        <blockquote>
+          “A terminal should feel like a cockpit,<br />not a drawer full of
+          loose cables.”
+        </blockquote>
+        <div class="principles">
+          <span><b>Fast</b>Native desktop shell</span
+          ><span><b>Focused</b>Signal over noise</span
+          ><span><b>Yours</b>Themes, profiles, shortcuts</span>
+        </div>
+      </section>
+
+      <section class="final-cta shell">
+        <div>
+          <p class="eyebrow"><span></span> Ready when you are</p>
+          <h2>Make Windows<br /><em>commandable.</em></h2>
+        </div>
+        <div>
+          <p>
+            Winmux is in active preview. Build it locally and shape what comes
+            next.
+          </p>
+          <a class="button primary" href="docs/index.html#installation"
+            >Get started <span>→</span></a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer shell">
+      <a class="brand" href="index.html"><span>›_</span> winmux</a>
+      <p>Terminal workspaces for Windows.</p>
+      <nav aria-label="Footer navigation">
+        <a href="docs/index.html">Docs</a><a href="#features">Features</a
+        ><a href="#main">Back to top ↑</a>
+      </nav>
+    </footer>
+  </body>
+</html>
